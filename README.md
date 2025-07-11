@@ -31,7 +31,7 @@ This Flask-based app predicts relative humidity based on input features like tem
 
 | High Humidity (>70%) | Low Humidity (<70%) |
 |----------------------|---------------------|
-| ![High Demo](./images/temp1.png) | ![Low Demo](./images/temp2.png) |
+| ![High Demo](static/images/temp1.png) | ![Low Demo](static/images/temp2.png) |
 
 ---
 
