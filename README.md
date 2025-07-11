@@ -1,4 +1,5 @@
-# ![Thermometer GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGszMWNsMGk0bThibHRkM25wYzNxd2pjb3d6cTgyM2FxbTRxbzI5diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26FL3uMhARSAvIZZS/200.webp) Humidity Predictor
+# <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHFpNGpydG9sNDlkMjFjMDQ2Zm8zcHdmeTRvY2N0cWxya2llbWhobSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/gHESustpINNBOPF8xP/giphy.webp" width="300"/>
+Humidity Predictor
 
 **Objective**: Helping users understand atmospheric humidity levels using a machine learning model trained on weather data — providing clear, real-time predictions through an interactive web app.
 
@@ -31,7 +32,7 @@ This Flask-based app predicts relative humidity based on input features like tem
 
 | High Humidity (>70%) | Low Humidity (<70%) |
 |----------------------|---------------------|
-| ![High Demo](static/images/temp1.png) | ![Low Demo](static/images/temp2.png) |
+| ![High Demo](temp1.png) | ![Low Demo](temp2.png) |
 
 ---
 
