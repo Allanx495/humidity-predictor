@@ -1,5 +1,4 @@
-# <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHFpNGpydG9sNDlkMjFjMDQ2Zm8zcHdmeTRvY2N0cWxya2llbWhobSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/gHESustpINNBOPF8xP/giphy.webp" width="300"/>
-Humidity Predictor
+# <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHFpNGpydG9sNDlkMjFjMDQ2Zm8zcHdmeTRvY2N0cWxya2llbWhobSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/gHESustpINNBOPF8xP/giphy.webp" width="150"/>  Humidity Predictor
 
 **Objective**: Helping users understand atmospheric humidity levels using a machine learning model trained on weather data — providing clear, real-time predictions through an interactive web app.
 
