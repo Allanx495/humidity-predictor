@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Humidity Predictor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            padding: 40px;
+        }
+        h1 {
+            color: #2e8b57;
+        }
+        form {
+            display: inline-block;
+            text-align: left;
+            padding: 20px;
+            border: 2px solid #2e8b57;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 6px;
+            margin-bottom: 12px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #2e8b57;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #246f45;
+        }
+        .result {
+            margin-top: 30px;
+            font-size: 1.4em;
+            color: #333;
+        }
+        .gif-container img {
+            margin-top: 20px;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Humidity Predictor 🌡️💧</h1>
+
+    <form method="POST" action="/predict">
+        <label>Temperature (°C):</label><br>
+        <input type="text" name="t_degc"><br>
+
+        <label>Wind Speed (m/s):</label><br>
+        <input type="text" name="wv_m/s"><br>
+
+        <label>Dew Point (°C):</label><br>
+        <input type="text" name="tdew_degc"><br>
+
+        <input type="submit" value="Predict Humidity">
+    </form>
+
+    {% if result %}
+        <div class="result">
+            <p>Predicted Humidity: <strong>{{ result }}</strong></p>
+        </div>
+    {% endif %}
+
+    {% if gif_url %}
+        <div class="gif-container">
+            <img src="{{ gif_url }}" alt="Humidity Level">
+        </div>
+    {% endif %}
+</body>
+</html>
