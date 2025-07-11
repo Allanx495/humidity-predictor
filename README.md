@@ -31,9 +31,7 @@ This Flask-based app predicts relative humidity based on input features like tem
 
 | High Humidity (>70%) | Low Humidity (<70%) |
 |----------------------|---------------------|
-| ![high](./images/high_humidity.gif) | ![low](./images/low_humidity.gif) |
-
-_The GIF changes depending on the predicted humidity level._
+| ![High Demo](./images/temp1.png) | ![Low Demo](./images/temp2.png) |
 
 ---
 
@@ -45,7 +43,7 @@ _The GIF changes depending on the predicted humidity level._
 | Wind Speed (m/s)  | 1.2           |
 | Dew Point (°C)    | 25            |
 
-**Predicted Humidity:** `71.93%` 🐻
+**Predicted Humidity:** `71.93%`
 
 | Feature           | Example Value |
 |-------------------|---------------|
@@ -53,7 +51,7 @@ _The GIF changes depending on the predicted humidity level._
 | Wind Speed (m/s)  | 3.0           |
 | Dew Point (°C)    | 10            |
 
-**Predicted Humidity:** `38.74%` 🌵
+**Predicted Humidity:** `38.74%`
 
 ---
 
